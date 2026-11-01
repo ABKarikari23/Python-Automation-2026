@@ -1,0 +1,1 @@
+Sample text fixture for the file organizer lesson.
