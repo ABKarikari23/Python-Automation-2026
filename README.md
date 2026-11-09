@@ -44,6 +44,8 @@ Python-Automation-2026/
 │       ├── organizer.py
 │       └── sample_files/
 ├── 02-files-and-folders/
+│   ├── main.py
+│   └── README.md
 ├── 03-web-automation/
 ├── 04-emails-and-reports/
 ├── 05-excel-and-csv/
@@ -74,6 +76,19 @@ python organizer.py
 ```
 
 The organizer begins in preview mode. It displays the files it would move without changing them. After reviewing the preview, set `DRY_RUN = False` in `organizer.py` and run the script again to perform the moves.
+
+### Continue with Part 2
+
+Open the Part 2 project directory:
+
+```powershell
+cd 02-files-and-folders
+python main.py "C:\path\to\folder"
+```
+
+The file-maintenance assistant generates an inventory, reports large files,
+and previews batch renaming. Add `--execute` together with `--rename` only
+after reviewing the proposed names.
 
 ## Automation Mindset
 
