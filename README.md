@@ -124,4 +124,4 @@ Bring a repetitive task from work, school, or a personal project and use the ser
 
 ## Related Work
 
-Explore more technology articles and projects at [abkarikari23.github.io](https://abkarikari23.github.io/).
+Explore more technology articles and projects at [abkarikari23.tech](https://abkarikari23.tech/).
