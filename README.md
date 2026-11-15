@@ -47,6 +47,9 @@ Python-Automation-2026/
 │   ├── main.py
 │   └── README.md
 ├── 03-web-automation/
+│   ├── main.py
+│   ├── requirements.txt
+│   └── README.md
 ├── 04-emails-and-reports/
 ├── 05-excel-and-csv/
 ├── 06-scheduling-tasks/
@@ -89,6 +92,19 @@ python main.py "C:\path\to\folder"
 The file-maintenance assistant generates an inventory, reports large files,
 and previews batch renaming. Add `--execute` together with `--rename` only
 after reviewing the proposed names.
+
+### Continue with Part 3
+
+Open the Part 3 project directory, install its dependency, and run the web
+data collector:
+
+```powershell
+cd 03-web-automation
+python -m pip install -r requirements.txt
+python main.py
+```
+
+The collector saves the returned posts to `output/posts_report.csv`.
 
 ## Automation Mindset
 
